@@ -26,12 +26,16 @@ layout: section
 ## Conformance across five SDKs is harder than you think
 
 <div class="pt-8 opacity-90 text-sm space-y-1">
-  <div>Simon Schrottner · OpenFeature maintainer & TSC member · CNCF & AAIF Ambassador</div>
+  <div>Simon Schrottner · Flagsmith · OpenFeature maintainer & TSC member · CNCF & AAIF Ambassador</div>
   <div><carbon:email class="inline"/> simon@schrottner.at &nbsp;·&nbsp;
        <carbon:link class="inline"/> <a href="https://schrottner.at" target="_blank">schrottner.at</a> &nbsp;·&nbsp;
        <carbon:logo-github class="inline"/> aepfli &nbsp;·&nbsp;
        <carbon:logo-linkedin class="inline"/> in/aepfli</div>
 </div>
+
+<a href="https://flagsmith.com" target="_blank" class="abs-bl m-6 !border-0">
+  <FlagsmithLogo class="h-10" />
+</a>
 
 <div class="abs-br m-6 flex items-end gap-2">
   <a href="https://schrottner.at/42/" target="_blank" class="text-xs opacity-60 hover:opacity-100 text-right leading-tight pb-1 !text-inherit">

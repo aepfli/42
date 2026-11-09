@@ -14,9 +14,16 @@ const progress = computed(() => {
   if (!t || t < 2) return 0
   return Math.max(0, Math.min(1, (currentSlideNo.value - 1) / (t - 1)))
 })
+
+// The title slide shows the Flagsmith logo large, so skip the corner one there.
+const showLogo = computed(() => currentSlideNo.value !== 1)
 </script>
 
 <template>
+  <FlagsmithLogo
+    v-if="showLogo"
+    class="fixed top-4 right-5 h-4 z-10 opacity-80 pointer-events-none select-none"
+  />
   <div v-if="!hidden" class="fixed bottom-0 left-0 right-0 z-10 pointer-events-none select-none">
     <div class="h-[3px] w-full bg-gray-200/50">
       <div
