@@ -1,0 +1,25 @@
+{
+  "name": "forty-two-lightning",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export --with-clicks --per-slide --wait 1500 --wait-until networkidle"
+  },
+  "dependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-seriph": "latest",
+    "slidev-addon-qrcode": "^1.0.2",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@iconify-json/carbon": "^1.2.0",
+    "@iconify-json/logos": "^1.2.11",
+    "@iconify-json/simple-icons": "^1.2.79",
+    "playwright-chromium": "^1.65.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
